@@ -1,0 +1,87 @@
+body {
+    background-color: #d0d5dd;
+    margin: 200px 500px;
+}
+
+.brand {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 40px 50px;
+    border: 3px solid white;
+    background: #ffbff8;
+    background: linear-gradient(90deg, #ffbff8 0%, #fdd2e0 5%, #aec9e7 29%, #fdd2e0 100%);
+}
+
+.brand h1 {
+    color: white;
+    font-size: 2.1rem;
+    margin-top: -3px;
+}
+
+#mastercard {
+    height: 350px;
+    width: 650px;
+}
+
+.name {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 100;
+}
+
+.card-details {
+    background-color: #354054;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 200px;
+    width: 648px;
+}
+
+h3 {
+    color: white;
+    font-size: 2.6rem;
+}
+
+.circle1 {
+    border-radius: 100%;
+    background-color: #a3a9b2;
+    height: 35px;
+    width: 35px;
+    opacity: 1.2px;
+}
+
+.circle2 {
+    border-radius: 100%;
+    background-color: #d1d4d8;
+    height: 35px;
+    width: 35px;
+    margin-left: -10px;
+}
+
+.number_and_logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    width: 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: #485365;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+h2 {
+    margin-right: 200px;
+}
