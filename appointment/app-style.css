@@ -7,17 +7,19 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+
 }
 
 nav>a {
     text-decoration: none;
     color: #9e9e9e;
     margin-top: 25px;
+    font-weight: bold;
 }
 
 nav>a:nth-child(4) {
     color: #4442c5;
-    font-size: bold;
+    font-size: bolder;
 }
 
 .brand-name {
@@ -25,9 +27,11 @@ nav>a:nth-child(4) {
     text-align: center;
 }
 
+
 h2 {
     color: #4442c5;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 nav>button {
@@ -42,7 +46,8 @@ nav>button {
 }
 
 hr {
-    border: 2px solid #4442c5;
+    border: 4px solid #4442c5;
+    border-radius: 4px;
 }
 
 .brand-name>img {
@@ -58,42 +63,64 @@ h1 {
 .form-headline {
     display: flex;
     margin-left: 280px;
-
 }
 
 .form-headline>div {
     margin: 0px 30px;
     display: flex;
-
 }
+
 
 
 .form-headline>div:nth-child(2) p,
 .form-headline>div:nth-child(3) p {
     margin: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #9e9e9e;
 }
 
 .form-headline>div:first-child p {
     color: #f5994a;
     margin: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
+.first-circle {
+    height: 55px;
+    width: 30px;
+    padding: 0px 10px;
+    border: 1px solid #f5994a;
+    border-radius: 100%;
+    text-align: center;
+    padding-right: 18px;
 
-h3 {
+}
+
+.second-circle {
+    height: 55px;
+    width: 30px;
+    padding: 0px 10px;
     border: 1px solid #9e9e9e;
     border-radius: 100%;
-    background-color: #d6d6d6;
-    color: #9e9e9e;
-    font-size: 0.9rem;
-    padding: 15px 20px;
     text-align: center;
+    padding-right: 18px;
 }
 
+h3 {
+    background-color: #d6d6d6;
+    margin-left: -1px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 100%;
+    color: #9e9e9e;
+    font-size: 0.8rem;
+    padding: 15px 20px;
+}
+
+
 h4 {
-    border: 1px solid #f5994a;
+    margin-top: 5px;
+    text-align: center;
     border-radius: 100%;
     background-color: #f4b885;
     color: #f5994a;
@@ -119,19 +146,31 @@ h4 {
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .8);
     border: 2px solid gray;
     border-radius: 12px;
-    width: 140px;
-    height: 80px;
+    width: 160px;
+    height: 85px;
     margin: 0px 5px;
+}
+
+.sentence {
+    margin: 0px 20px;
+}
+
+.available {
+    margin: 10px 20px;
+}
+
+.working {
+    margin: 0px 20px;
 }
 
 
 
 #general-information-form {
     margin: 0px 200px;
-    height: 800px;
+    height: 820px;
     background-color: white;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .8);
-
+    width: 900px;
 }
 
 #general-information-form>hr {
@@ -177,13 +216,14 @@ h4 {
 .list-of-doctor {
     display: flex;
     margin-top: -25px;
+    width: 900px;
 }
 
 .doctor-collection {
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .8);
     border-radius: 12px;
     height: 300px;
-    width: 250px;
+    width: 350px;
     margin: 10px 20px;
 }
 
@@ -197,12 +237,18 @@ h4 {
     margin: 20px 10px;
 }
 
+p1 {
+    margin: 20px;
+}
+
 .doctor-list>div:last-child {
     margin: 20px 10px;
 }
 
 
-
+.sign {
+    margin-top: 18px;
+}
 
 .button-2 {
     margin: 10px;
